@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>desafio015</title>
     <style>
-        td{
+
+        table{
             border-collapse: collapse;
+            width: 500px;
         }
         td{
             border: 1px black solid;
@@ -16,10 +18,21 @@
         td.rodape{
             background: gray;
         }
+        .red{
+            background: red;
+        }
+        .yelow{
+            background: yellow;
+        }
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+          <col class="red">
+          <col>
+          <colgroup span="3" class="yelow">
+        </colgroup>
         <tr class="rodape">
             <td rowspan="2"  class="rodape">area</td>
             <td rowspan="2" class="rodape">disciplina</td>
