@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*TELA TANHHOS
+tela pequena abaixo de 600px
+tela de celular de 600 até 768
+tela de tablet de 768 até 992
+tela de pc de 992 até 1200px
+tela grande acima de 1200px*/
+
+@media screen and (min-width: 768px){
+    i#burger{
+    display: none;
+}
+    menu#itens{
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block;
+        width: 150px;
+    }
+    menu > ul > li > a{
+        border-radius: 10px;
+    }
+    main{
+        width: 850px;
+    }
+}
+
